@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form method="post" action="/login/">
+    {% csrf_token %}
+    <label for="login">Email
+        <input name="email" id="login">
+    </label>
+    <label for="password">Пароль
+        <input name="password" id="password">
+    </label>
+    <button type="submit">Вход</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+{% load staticfiles%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой блог</title>
+     <link rel="stylesheet" type="text/css" href="{%static 'blog.css'%}">
+</head>
+<body>
+
+<div>
+<a href="/"> блог</a>
+
+<h1 class="header">Мой блог</h1>
+
+</div>
+
+
+        <div class="post">hgfhjgjgjhgh
+
+            <h1>{{post.title}}</h1>
+            <p>{{post.text}}</p>
+            <strong>
+                {{post.created_date}}
+            </strong>
+
+
+        </div>
+
+
+</body>
+</html>

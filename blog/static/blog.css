@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.tex{
+	padding: 10px;
+	color: black;
+	text-align: center;
+
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    background: #151515;
+    color: #ffffff;
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+    padding: 9px 19px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+ul.menu-list {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.menu-list > li.menu-item {
+    display: flex;
+}
+
+ul.menu-list > li.menu-item > a {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul.menu-list > li.menu-item > a:hover {
+    background: grey;
+}
+
+ul.menu-list > li.menu-item.menu-item-right {
+    margin: 0 15px 0 auto;
+}
+
+ul.menu-list > li.menu-item > img {
+    align-self: center;
+    width: 22px;
+    height: 22px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 100%;
+}
+.subscribe{
+	padding: 20px;
+	background-color: green;
+	color: white;
+	border: 5px;
+	border-radius: 100%;
+}
+.subscribe:active {
+    box-shadow: inset 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.subscribe:hover {
+    background-color: red;
+
+}
+.body{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 134px;
+    background-image: url('http://www.lemonthemovie.com/educational-background-images-118.jpg');
+}
+
+input.pretty-text-input {
+    display: block;
+    min-width: 300px;
+    padding: 10px 10px 12px;
+    background: #fff;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+    outline: none;
+}
+
+input.pretty-text-input:focus {
+    border-color: #fac71c;
+}
+
+input.pretty-text-input#subscribe-email {
+    margin: 0 auto 25px;
+}
